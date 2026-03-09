@@ -1,0 +1,68 @@
+[
+  {
+    "question": "What was the primary mission objective of Apollo 11?",
+    "answer": "The primary mission objective of Apollo 11, as defined in the NASA Headquarters document OMSF M-D MA 500-11, was to perform a manned lunar landing and return safely to Earth.",
+    "contexts_used": 3,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "bleu_score": 0.0,
+      "rouge_score": 0.0
+    }
+  },
+  {
+    "question": "What problems did Apollo 13 encounter during its mission?",
+    "answer": "Based on the provided context from NASA documents, there is no specific mention of the problems encountered by Apollo 13 during its mission. For detailed information on the issues faced by Apollo 13, it is recommended to refer to official NASA reports or historical records related to the mission.",
+    "contexts_used": 3,
+    "scores": {
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0,
+      "bleu_score": 0.0,
+      "rouge_score": 0.0
+    }
+  },
+  {
+    "question": "What caused the Challenger disaster?",
+    "answer": "Based on the provided context from NASA documents, the Challenger disaster (STS-51L) was caused by the failure of an O-ring seal in one of the solid rocket boosters. This failure led to the structural failure of the external fuel tank, causing the shuttle to break apart during launch.",
+    "contexts_used": 3,
+    "scores": {
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.8665,
+      "bleu_score": 0.0,
+      "rouge_score": 0.0
+    }
+  },
+  {
+    "question": "Who were the crew members of Apollo 11?",
+    "answer": "The crew members of Apollo 11 were Neil A. Armstrong (Commander), Michael Collins (Command Module Pilot), and Edwin E. Aldrin, Jr. (Lunar Module Pilot). This information is sourced from the NASA document \"NASA_NTRS_Archive_19710015566_textract_full_text.\"",
+    "contexts_used": 3,
+    "scores": {
+      "faithfulness": 0.75,
+      "answer_relevancy": 1.0,
+      "bleu_score": 0.0,
+      "rouge_score": 0.0
+    }
+  },
+  {
+    "question": "How did the Apollo 13 crew survive after the oxygen tank explosion?",
+    "answer": "The Apollo 13 crew survived after the oxygen tank explosion by isolating the damaged tank and using oxygen from other sources such as the lunar module. They also had backup procedures in place to manually vent the tank if needed. (Source: NASA documents, Mission: Apollo 13)",
+    "contexts_used": 3,
+    "scores": {
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "bleu_score": 0.0,
+      "rouge_score": 0.0
+    }
+  },
+  {
+    "question": "What was the sequence of events during the Apollo 13 emergency?",
+    "answer": "Based on the provided context from NASA documents, the sequence of events during the Apollo 13 emergency included:\n\n1. The crew was passed up a pericynthion plus 2 hours maneuver to speed up their return to Earth earlier than the normal free return trajectory.\n2. This maneuver was scheduled to occur at 79 hours 27 minutes ground elapse time and would involve an 845 feet per second velocity change.\n3. Splashdown was planned to be in the southwest Pacific, north of New Zealand, at about 142 hours 47 minutes ground elapse time.\n\nThis information provides a brief overview of the key events during the Apollo 13 emergency as documented by NASA.",
+    "contexts_used": 3,
+    "scores": {
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.8921,
+      "bleu_score": 0.0,
+      "rouge_score": 0.0
+    }
+  }
+]

@@ -208,10 +208,21 @@ data/
 1. **Run the complete pipeline**:
    ```bash
    # Process documents
-   python embedding_pipeline.py --openai-key YOUR_KEY --data-path ./data
-   
+   python embedding_pipeline.py --openai-key YOUR_KEY --data-path ./data_text
+
    # Launch chat interface
    streamlit run chat.py
+   ```
+
+2. **Run end-to-end evaluation** using `evaluation_dataset.txt` (6 mission-relevant questions covering overview, emergency, disaster analysis, crew, and timeline categories):
+   ```bash
+   python evaluate.py --openai-key YOUR_KEY
+   ```
+   This loads `evaluation_dataset.txt`, runs each question through the full RAG pipeline (retrieval → generation → RAGAS scoring), and outputs per-question scores plus aggregate metrics saved to `evaluation_results.json`.
+
+   Optional flags:
+   ```bash
+   python evaluate.py --openai-key YOUR_KEY --k 5 --model gpt-4 --output my_results.json
    ```
 
 ## 🎓 Learning Checkpoints
